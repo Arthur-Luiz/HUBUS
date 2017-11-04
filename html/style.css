@@ -1,0 +1,109 @@
+body{
+	background-color: rgb(250,250,250);
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	color: white;
+}
+
+.imagehome{
+	max-width: 100%;
+	height: auto;
+	border: 1px solid black;
+}
+
+.accrochehome{
+	background-color: rgba(3,32,49,100);
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.wrapper{
+	height:50px;
+}
+
+.navbar-transparent {
+  background-color: rgba(3,32,49,100);
+}
+
+.navbar-transparent .navbar-brand,
+.navbar-transparent .navbar-nav > li > a {
+  color: #FFB800;
+}
+
+.navbar-transparent .navbar-brand:hover,
+.navbar-transparent .navbar-brand:active,
+.navbar-transparent .navbar-brand:focus,
+.navbar-transparent .navbar-nav > li > a:hover,
+.navbar-transparent .navbar-nav > li > a:active,
+.navbar-transparent .navbar-nav > li > a:focus,
+.navbar-transparent .navbar-nav > .open > a,
+.navbar-transparent .navbar-nav > .open > a:hover,
+.navbar-transparent .navbar-nav > .open > a:focus {
+  color: white;
+  background-color: rgba(0,0,0, 0.3);
+}
+
+	
+.géolocalisation, .paiement, .hubuser, .voyage{
+	margin: 40px;
+	border: 1px solid black;
+	box-shadow:0.5px 0.5px 1px black;
+	padding-top: 60px;
+	color: white;
+    display: inline-block;
+    background: #141E30;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 200px;
+    height: 200px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+
+.btn-primary {
+ background-color:#FFB800;
+ color: #032031;
+ font-size: 20px;
+}
+
+.btn-primary:hover {
+  background-color: white;
+  border-color: black;
+  color: #032031;
+}
+
+
+.footer {
+	background-color: rgb(0,0,0);
+	font-size: 16px;
+	text-align: center;
+	margin-top: 30px;
+}
+
+#footerlogo{
+	color: white;
+	font-size: 30px;
+}
+
+
+#footercontact a:hover {
+	color:#FFB800;
+}
+
+#footercontact {
+	padding-top: 40px;
+}
+
+.contact{
+	color: rgba(3,32,49,100);
+	margin-left: auto;
+	margin-right: auto;
+	width:650px;
+}
+
+
+
+
+
