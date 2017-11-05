@@ -107,11 +107,21 @@ body{
 	margin-top: 130px;
 }
 
+.features a:hover {
+	text-decoration: none;
+color:#FFB800;
+}
 
+#localise-bus, #paye-bus, #hubuser, #national{
+ color: #032031;
+ font-size: 30px;
+ position: fixed;
+ top: 300px;
+}
 
-
-
-
+.modal-header{
+	font-size: 80px;
+}
 
 
 

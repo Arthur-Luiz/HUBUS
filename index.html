@@ -79,10 +79,10 @@
 	    	<h1>Déplacez-vous, on s'occupe de tout !</h1>
 	    	<div>			
 							<!-- Button trigger modal -->
-							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
 								  Je m'inscris !
-							</button>
-							</div>
+				</button>
+			</div>
 	    </div>
 
 
@@ -93,22 +93,30 @@
 				<div class="row">
 					<div class="col-xs-12 col-sm-6 col-md-3">
 							<div class="géolocalisation">
-	    					<h3>Géolocalise ton bus</h3>
-				    	</div>
+								<a data-toggle="modal" data-target="#localise-bus">
+	    						<h3>Géolocalise ton bus</h3>
+				    			</a>
+				    		</div>
 				    </div>
 					<div class="col-xs-12 col-sm-6 col-md-3">
 						<div class="paiement">
+							<a data-toggle="modal" data-target="#paye-bus">
 	    					<h3>Paye avec ton smartphone</h3>
+	    					</a>
 				    	</div>
 					</div>
 					<div class="col-xs-12 col-sm-6 col-md-3">	
 							<div class="hubuser">
+							<a data-toggle="modal" data-target="#hubuser">
 	    					<h3>Deviens un Hubuser</h3>
+	    					</a>
 				    		</div>
 					</div>
 					<div class="col-xs-12 col-sm-6 col-md-3">
 						<div class="voyage">
+							<a data-toggle="modal" data-target="#national">
 	    					<h3>Parcours la France entière</h3>
+	    					</a>
 				    	</div>
 					</div>
 					
@@ -154,7 +162,7 @@
 
 
 
-<!-- Modal -->
+<!-- Modal JE M'INSCRIS -->
 		<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 			<div class="modal-dialog" role="document">
 				<div class="modal-content">
@@ -194,7 +202,93 @@
 
 
 
+<!-- Modal bulle localisation bus -->
+		<div class="modal fade" id="localise-bus" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		      	<i class="fa fa-map-marker" aria-hidden="true"></i> 
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			  <span aria-hidden="true">&times;</span>
+			</button>
+		      </div>
+		      <div class="modal-body">
+			       Dans l'app HUBUS, clique sur ton bus pour le voir en temps réel, la solution pour ne plus l'attendre ou courir après !
+		      </div>
+		      <div class="modal-footer">
+			<button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
 
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+
+<!-- Modal bulle paiement par smartphone -->
+		<div class="modal fade" id="paye-bus" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		      	<i class="fa fa-credit-card" aria-hidden="true"></i>
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			  <span aria-hidden="true">&times;</span>
+			</button>
+		      </div>
+		      <div class="modal-body">
+			       Paie ton titre de transport directement dans l’application HUBUS et bipe ton téléphone lorsque tu montes dans le bus. La simplicité à bout de doigts !
+		      </div>
+		      <div class="modal-footer">
+			<button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+
+
+<!-- Modal bulle hubuser -->
+		<div class="modal fade" id="hubuser" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		      	<img src="image/logobleu.png" width="110px">
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			  <span aria-hidden="true">&times;</span>
+			</button>
+		      </div>
+		      <div class="modal-body">			       
+				Signale les infos trafics de ta ligne, indique le taux de remplissage de ton bus et tente de devenir le meilleur Hubuser du mois pour gagner jusqu'à un mois de transport gratuit !
+		      </div>
+		      <div class="modal-footer">
+			<button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+
+<!-- Modal bulle parcours la france -->
+		<div class="modal fade" id="national" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		      	<i class="fa fa-globe" aria-hidden="true"></i>
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			  <span aria-hidden="true">&times;</span>
+			</button>
+		      </div>
+		      <div class="modal-body">
+			       Paris, Marseille, Bordeaux ? Trouve le bus qu'il te faut dans n'importe quelle ville, grâce à une seule et même application.
+		      </div>
+		      <div class="modal-footer">
+			<button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+
+		      </div>
+		    </div>
+		  </div>
+		</div>
 
 
 
