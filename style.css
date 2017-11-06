@@ -5,11 +5,12 @@ body{
 	color: white;
 }
 
-.imagehome{
+
+#imagehome{
 	max-width: 100%;
 	height: auto;
-	border: 1px solid black;
 }
+
 
 .accrochehome{
 	background-color: rgba(3,32,49,100);
@@ -28,6 +29,7 @@ body{
 .navbar-transparent .navbar-brand,
 .navbar-transparent .navbar-nav > li > a {
   color: #FFB800;
+  font-size:20px; 
 }
 
 .navbar-transparent .navbar-brand:hover,
@@ -47,13 +49,11 @@ body{
 .géolocalisation, .paiement, .hubuser, .voyage{
 	margin: 40px;
 	border: 1px solid black;
-	box-shadow:0.5px 0.5px 1px black;
+	box-shadow:2px 2px 1px rgb(30,30,30);
 	padding-top: 60px;
 	color: white;
     display: inline-block;
-    background: #141E30;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: rgba(3,32,49,100);
     width: 200px;
     height: 200px;
     -moz-border-radius: 50%;
@@ -116,7 +116,7 @@ color:#FFB800;
  color: #032031;
  font-size: 30px;
  position: fixed;
- top: 200px;
+ top: 100px;
 }
 
 .modal-header{
