@@ -149,6 +149,11 @@ color: black;
 
 .test2, .test3, .test4 {
 	margin: 20px;
-	border: 1px solid black;
+/*	border: 1px solid black;*/
 }
 
+
+.team{
+	background-color: rgba(3,32,49,100);
+
+}
