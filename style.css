@@ -20,7 +20,7 @@ a {
 .accroche{
 	padding-top: 150px;
 	padding-bottom: 200px;
-	background : linear-gradient(to right, rgba(35, 37, 38,0.6), rgba(65, 67, 69,0.6));
+	background : linear-gradient(to right, rgba(3,32,49,0.6), rgba(255, 184, 0,0.3));
 	text-shadow: 1px 1px 1px rgb(3,32,49);
 	max-height: 800px;
 }
