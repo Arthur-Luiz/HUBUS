@@ -12,15 +12,15 @@ a {
 
 .imagehome{
 	height: 800px;
-	background-image: url(image/aix.png);
-	background-size: contain;
+	background-image: url(image/fond2.jpg);
+	background-size: cover;
 
 }
 
 .accroche{
 	padding-top: 150px;
 	padding-bottom: 200px;
-	background : linear-gradient(to right, rgba(35, 37, 38,0.5), rgba(65, 67, 69,0.9));
+	background : linear-gradient(to right, rgba(35, 37, 38,0.6), rgba(65, 67, 69,0.6));
 	text-shadow: 1px 1px 1px rgb(3,32,49);
 	max-height: 800px;
 }
@@ -42,7 +42,7 @@ a {
 
 
 .navbar-transparent {
-  background-color: rgba(3,32,49,100);
+  background-color: rgba(3,32,49,1);
 }
 
 .navbar-transparent .navbar-brand,
@@ -71,7 +71,6 @@ a {
 	box-shadow:2px 2px 1px rgb(30,30,30);
 	padding-top: 60px;
 	color: white;
-    display: inline-block;
     background-color: rgba(3,32,49,100);
     width: 200px;
     height: 200px;
@@ -99,20 +98,22 @@ a {
 	font-size: 16px;
 	text-align: center;
 	margin-top: 150px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 #footerlogo{
+	background-color: rgb(30,30,30);
 	color: white;
 	font-size: 30px;
 }
-
 
 #footercontact a:hover {
 	color:#FFB800;
 }
 
 #footercontact {
-	padding-top: 40px;
+	padding-top: 20px;
 }
 
 .contact{
@@ -142,18 +143,28 @@ color:#FFB800;
 	font-size: 80px;
 }
 
-.test{
+.fonctions{
 	margin-top: 50px;
 color: black;
 }
 
-.test2, .test3, .test4 {
-	margin: 20px;
-/*	border: 1px solid black;*/
+.fonctions2 {
+	margin-top: 50px;
 }
 
 
 .team{
+	padding: 30PX;
 	background-color: rgba(3,32,49,100);
 
+}
+
+
+.team2{
+	margin: 30px;
+}
+
+.img-circle{
+	border: 2px solid white;
+	box-shadow:2px 2px 5px black;
 }
