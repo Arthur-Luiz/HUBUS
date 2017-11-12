@@ -10,47 +10,17 @@ a {
 	color: white; 
 } 
 
-.imagehome{
-	height: 800px;
-	background-image: url(image/fond2.jpg);
-	background-size: cover;
 
-}
-
-.accroche{
-	padding-top: 150px;
-	padding-bottom: 200px;
-	background : linear-gradient(to right, rgba(3,32,49,0.6), rgba(255, 184, 0,0.3));
-	text-shadow: 1px 1px 1px rgb(3,32,49);
-	max-height: 800px;
-}
-
-
-.wrapper{
-	height:50px;
-}
-
-
-.callto{
-	margin-top: 30px;
-}
-
-.appstore, .googlestore{
-	margin: 40px;
-
-}
 
 
 .navbar-transparent {
   background-color: rgba(3,32,49,1);
 }
-
 .navbar-transparent .navbar-brand,
 .navbar-transparent .navbar-nav > li > a {
   color: white;
   font-size:20px; 
 }
-
 .navbar-transparent .navbar-brand:hover,
 .navbar-transparent .navbar-brand:active,
 .navbar-transparent .navbar-brand:focus,
@@ -63,6 +33,151 @@ a {
   color: #FFB800;
   background-color: rgba(0,0,0, 0.3);
 }
+
+
+
+
+
+
+
+.wrapper{
+	height:50px;
+}
+
+
+
+
+
+
+
+
+
+.imagehome{
+	height: 800px;
+	background-image: url(image/fond2.jpg);
+	background-size: cover;
+}
+.accroche{
+	padding-top: 150px;
+	padding-bottom: 200px;
+	background : linear-gradient(to right, rgba(3,32,49,0.6), rgba(255, 184, 0,0.3));
+	text-shadow: 1px 1px 1px rgb(3,32,49);
+	max-height: 800px;
+}
+.callto{
+	margin-top: 30px;
+}
+.btn-primary {
+ background-color:#FFB800;
+ color: #032031;
+ font-size: 20px;
+}
+.btn-primary:hover {
+  background-color: white;
+  border-color: rgb(3,32,49);
+  color: #032031;
+}
+.appstore, .googlestore{
+	margin: 40px;
+}
+
+
+
+
+
+
+
+
+
+.fonctions{
+	margin-top: 50px;
+	color: rgb(3,32,49);
+}
+.fonctions2 {
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+
+
+
+
+
+.team{
+	padding: 30PX;
+	background-color: rgba(3,32,49,100);
+}
+.team2{
+	margin: 30px;
+}
+.img-circle{
+	border: 2px solid white;
+	box-shadow:2px 2px 5px black;
+}
+
+
+
+
+
+
+
+.presse{
+	color: rgb(3,32,49);
+	padding-top: 30px;
+}
+.presse2{
+	margin : 20px;
+	padding-top: 30px;
+	height: 160px;
+}
+#logopresse{
+	padding-top: 20px;
+}
+
+
+
+
+
+
+.footer {
+	background-color: rgb(30,30,30);
+	font-size: 16px;
+	text-align: center;
+	margin-top: 150px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+#footercontact a:hover {
+	color:#FFB800;
+}
+
+#footercontact {
+	padding-top: 20px;
+}
+#footerlogo{
+	background-color: rgb(30,30,30);
+	color: white;
+	font-size: 30px;
+}
+
+
+
+
+
+
+
+
+.contact{
+	color: rgba(3,32,49,100);
+	margin-left: auto;
+	margin-right: auto;
+	width:650px;
+}
+
+
+
+
+
 
 	
 .géolocalisation, .paiement, .hubuser, .voyage{
@@ -79,92 +194,28 @@ a {
     border-radius: 50%;
 }
 
-
-.btn-primary {
- background-color:#FFB800;
- color: #032031;
- font-size: 20px;
-}
-
-.btn-primary:hover {
-  background-color: white;
-  border-color: rgb(3,32,49);
-  color: #032031;
-}
-
-
-.footer {
-	background-color: rgb(30,30,30);
-	font-size: 16px;
-	text-align: center;
-	margin-top: 150px;
-	padding-top: 30px;
-	padding-bottom: 30px;
-}
-
-#footerlogo{
-	background-color: rgb(30,30,30);
-	color: white;
-	font-size: 30px;
-}
-
-#footercontact a:hover {
-	color:#FFB800;
-}
-
-#footercontact {
-	padding-top: 20px;
-}
-
-.contact{
-	color: rgba(3,32,49,100);
-	margin-left: auto;
-	margin-right: auto;
-	width:650px;
-}
-
 .features{
 	margin-top: 130px;
 }
-
 .features a:hover {
 	text-decoration: none;
 color:#FFB800;
 }
-
 #localise-bus, #paye-bus, #hubuser, #national{
  color: #032031;
  font-size: 30px;
  position: fixed;
  top: 100px;
 }
-
 .modal-header{
 	font-size: 80px;
 }
 
-.fonctions{
-	margin-top: 50px;
-color: black;
-}
-
-.fonctions2 {
-	margin-top: 50px;
-}
 
 
-.team{
-	padding: 30PX;
-	background-color: rgba(3,32,49,100);
-
-}
 
 
-.team2{
-	margin: 30px;
-}
 
-.img-circle{
-	border: 2px solid white;
-	box-shadow:2px 2px 5px black;
-}
+
+
+
