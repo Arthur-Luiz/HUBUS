@@ -51,11 +51,11 @@ a {
 
 
 
-
 .imagehome{
 	height: 800px;
 	background-image: url(image/fond2.jpg);
 	background-size: cover;
+	background-position: center center;
 }
 .accroche{
 	padding-top: 150px;
@@ -105,7 +105,7 @@ a {
 
 .team{
 	padding: 30PX;
-	background-color: rgba(3,32,49,100);
+	background-color: rgba(3,32,49,1);
 }
 .team2{
 	margin: 30px;
@@ -166,12 +166,16 @@ a {
 
 
 
-
 .contact{
 	color: rgba(3,32,49,100);
-	margin-left: auto;
-	margin-right: auto;
-	width:650px;
+
+}
+
+.map-responsive{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
 }
 
 
@@ -179,39 +183,23 @@ a {
 
 
 
-	
-.géolocalisation, .paiement, .hubuser, .voyage{
-	margin: 40px;
-	border: 1px solid black;
-	box-shadow:2px 2px 1px rgb(30,30,30);
-	padding-top: 60px;
-	color: white;
-    background-color: rgba(3,32,49,100);
-    width: 200px;
-    height: 200px;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-}
-
-.features{
-	margin-top: 130px;
-}
-.features a:hover {
-	text-decoration: none;
-color:#FFB800;
-}
-#localise-bus, #paye-bus, #hubuser, #national{
- color: #032031;
- font-size: 30px;
- position: fixed;
- top: 100px;
-}
-.modal-header{
-	font-size: 80px;
-}
 
 
+
+
+
+
+#creer, #rechercher, #preparer{
+	color: rgba(3,30,49,100);
+}
+
+.preparer:hover,.creer:hover, .rechercher:hover{
+	color:#FFB800;
+}
+
+.modal-body{
+	font-size: 20px;
+}
 
 
 

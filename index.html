@@ -102,22 +102,28 @@
 					<div class="col-xs-12 col-sm-6 col-md-4">
 							<div class="fonctions2">
 								<img src="image/localise.png" width="300px">
-								<h2>Créer</h2>
-								<h4>Créez votre profil pour avoir la meilleure personnalisation de vos trajets.</h4>
+								<modal  data-toggle="modal" data-target="#creer">
+								<h2 class="creer">Créer</h2>
+								<h4>Créez votre profil pour avoir la meilleure personnalisation de vos trajets et pour les payer directement avec votre smartphone.</h4>
+								</modal>
 				    		</div>
 				    </div>
 					<div class="col-xs-12 col-sm-6 col-md-4">
 							<div class="fonctions2">
 								<img src="image/localise.png" width="300px">
-								<h2>Rechercher</h2>
-								<h4>Indiquez simplement le lieu de destination et Hubus se chargera de vous trouver le meilleur trajet en fonction de vos préférences.</h4>
+								<modal  data-toggle="modal" data-target="#rechercher">
+								<h2 class="rechercher">Rechercher</h2>
+								<h4>Indiquez simplement le lieu de destination et Hubus se chargera de vous trouver le meilleur trajet en fonction de vos préférences, du trafic et de la météo.</h4>
+								</modal>
 				    		</div>
 					</div>
 					<div class="col-xs-12 col-sm-6 col-md-4">	
 							<div class="fonctions2">
 								<img src="image/localise.png" width="300px">
-								<h2>Préparer</h2>
+								<modal  data-toggle="modal" data-target="#preparer">
+								<h2 class="preparer">Préparer</h2>
 								<h4>Préparez vos trajets à l'avance pour être sûr de ne pas être en retard.</h4>
+								</modal>
 				    		</div>
 					</div>					
 				</div>
@@ -247,45 +253,6 @@
 
 
 
-<!-- 
-
-		<div class="features">
-			<div class="container">
-				<div class="row">
-					<div class="col-xs-12 col-sm-6 col-md-3">
-							<div class="géolocalisation">
-								<a data-toggle="modal" data-target="#localise-bus">
-	    						<h3>Géolocalise ton bus</h3>
-				    			</a>
-				    		</div>
-				    </div>
-					<div class="col-xs-12 col-sm-6 col-md-3">
-						<div class="paiement">
-							<a data-toggle="modal" data-target="#paye-bus">
-	    					<h3>Paye avec ton smartphone</h3>
-	    					</a>
-				    	</div>
-					</div>
-					<div class="col-xs-12 col-sm-6 col-md-3">	
-							<div class="hubuser">
-							<a data-toggle="modal" data-target="#hubuser">
-	    					<h3>Deviens un Hubuser</h3>
-	    					</a>
-				    		</div>
-					</div>
-					<div class="col-xs-12 col-sm-6 col-md-3">
-						<div class="voyage">
-							<a data-toggle="modal" data-target="#national">
-	    					<h3>Parcours la France entière</h3>
-	    					</a>
-				    	</div>
-					</div>
-					
-				</div>
-			</div>
-		</div>
- -->
-
 
 
 		<div class="footer">
@@ -331,29 +298,28 @@
 				        </button>
 				    </div>
 				    	<div class="modal-body">
-				        	<div id="wufoo-z1ty2lx0d21n2v">Fill out my <a href="https://arthurluiz.wufoo.com/forms/z1ty2lx0d21n2v">online form</a>.
-							</div>
-							<script type="text/javascript">var z1ty2lx0d21n2v;(function(d, t) {
-							var s = d.createElement(t), options = {
-							'userName':'arthurluiz',
-							'formHash':'z1ty2lx0d21n2v',
-							'autoResize':true,
-							'height':'665',
-							'async':true,
-							'host':'wufoo.com',
-							'header':'show',
-							'ssl':true};
-							s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
-							s.onload = s.onreadystatechange = function() {
-							var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
-							try { z1ty2lx0d21n2v = new WufooForm();z1ty2lx0d21n2v.initialize(options);z1ty2lx0d21n2v.display(); } catch (e) {}};
-							var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
-							})(document, 'script');</script>
+				        	<div id="wufoo-z1ty2lx0d21n2v">
+								Fill out my <a href="https://arthurluiz.wufoo.com/forms/z1ty2lx0d21n2v">online form</a>.
+								</div>
+								<div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;"></div>
+								<script type="text/javascript">var z1ty2lx0d21n2v;(function(d, t) {
+								var s = d.createElement(t), options = {
+								'userName':'arthurluiz',
+								'formHash':'z1ty2lx0d21n2v',
+								'autoResize':true,
+								'height':'440',
+								'async':true,
+								'host':'wufoo.com',
+								'header':'show',
+								'ssl':true};
+								s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+								s.onload = s.onreadystatechange = function() {
+								var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+								try { z1ty2lx0d21n2v = new WufooForm();z1ty2lx0d21n2v.initialize(options);z1ty2lx0d21n2v.display(); } catch (e) {}};
+								var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+								})(document, 'script');</script>
 				      	</div>
-				      		<div class="modal-footer">
-				        	<button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
-				        	<button type="button" class="btn btn-primary">Enregistrer</button>
-				      		</div>
+				    </div>
 				</div>
 			</div>
 		</div>
@@ -361,98 +327,73 @@
 
 
 
-<!-- Modal créer -->
-		<div class="modal fade" id="localise-bus" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-		  <div class="modal-dialog" role="document">
-		    <div class="modal-content">
-		      <div class="modal-header">
-		      	<i class="fa fa-map-marker" aria-hidden="true"></i> 
-			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-			  <span aria-hidden="true">&times;</span>
-			</button>
-		      </div>
-		      <div class="modal-body">
-			       Dans l'app HUBUS, clique sur ton bus pour le voir en temps réel, la solution pour ne plus l'attendre ou courir après !
-		      </div>
-		      <div class="modal-footer">
-			<button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
-
-		      </div>
-		    </div>
-		  </div>
-		</div>
-
-
-<!-- Modal bulle paiement par smartphone -->
-		<div class="modal fade" id="paye-bus" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-		  <div class="modal-dialog" role="document">
-		    <div class="modal-content">
-		      <div class="modal-header">
-		      	<i class="fa fa-credit-card" aria-hidden="true"></i>
-			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-			  <span aria-hidden="true">&times;</span>
-			</button>
-		      </div>
-		      <div class="modal-body">
-			       Paie ton titre de transport directement dans l’application HUBUS et bipe ton téléphone lorsque tu montes dans le bus. La simplicité à bout de doigts !
-		      </div>
-		      <div class="modal-footer">
-			<button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
-
-		      </div>
-		    </div>
-		  </div>
+<!-- Modal CREER -->
+		<div class="modal fade" id="creer" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<img src="image/hubuserbleu.png" width="300px">
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				          <span aria-hidden="true">&times;</span>
+				        </button>
+				    </div>
+				    	<div class="modal-body">
+				    		<p><img src="image/compte.png" width="200px"></p>
+				       		<i class="fa fa-home" aria-hidden="true"></i><p>Indiquez votre lieu de résidence</p>
+				        	<i class="fa fa-briefcase" aria-hidden="true"></i><p>Indiquez votre lieu de travail</p>
+				        	<i class="fa fa-heart" aria-hidden="true"></i><p>Indiquez vos trajets favoris</p>
+				        	<i class="fa fa-credit-card" aria-hidden="true"></i><p>Enregistrez votre carte de paiement</p>
+				        	<i class="fa fa-subway" aria-hidden="true"></i><p>Enregistrez votre carte d'abonnement transport</p>
+				        	<i class="fa fa-handshake-o" aria-hidden="true"></i><p>Retrouvez vos amis sur l'application</p>
+				      	</div>
+				      		
+				</div>
+			</div>
 		</div>
 
 
 
-<!-- Modal bulle hubuser -->
-		<div class="modal fade" id="hubuser" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-		  <div class="modal-dialog" role="document">
-		    <div class="modal-content">
-		      <div class="modal-header">
-		      	<img src="image/logobleu.png" width="110px">
-			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-			  <span aria-hidden="true">&times;</span>
-			</button>
-		      </div>
-		      <div class="modal-body">			       
-				Signale les infos trafics de ta ligne, indique le taux de remplissage de ton bus et tente de devenir le meilleur Hubuser du mois pour gagner jusqu'à un mois de transport gratuit !
-		      </div>
-		      <div class="modal-footer">
-			<button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
-
-		      </div>
-		    </div>
-		  </div>
+<!-- Modal RECHERCHER -->
+		<div class="modal fade" id="rechercher" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<img src="image/search.png" width="200px">
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				          <span aria-hidden="true">&times;</span>
+				        </button>
+				    </div>
+				    	<div class="modal-body">
+				        <p>Indiquez votre lieu de destination et l'heure d'arrivée ou de départ souhaitée.</p>
+				        <i class="fa fa-rocket" aria-hidden="true"></i><p>HUBUS vous proposera plusieurs possibilité de transport en intégrant tous les moyens de transports disponibles.</p>
+				        <i class="fa fa-location-arrow" aria-hidden="true"></i><p>Suivez votre moyen de transport en direct grâce à la géolocalisation en temps réel.</p>
+				        <i class="fa fa-info-circle" aria-hidden="true"></i><p>Signalez des évènements sur votre trajets pour aider les autres HUBUSER et gagnez jusqu'à un mois de transport offert !</p>
+				        <img src="image/buscouleur.png" width="200px">
+				      	</div>
+				      	</div>
+				      		
+				</div>
+			</div>
 		</div>
 
 
-<!-- Modal bulle parcours la france -->
-		<div class="modal fade" id="national" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-		  <div class="modal-dialog" role="document">
-		    <div class="modal-content">
-		      <div class="modal-header">
-		      	<i class="fa fa-globe" aria-hidden="true"></i>
-			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-			  <span aria-hidden="true">&times;</span>
-			</button>
-		      </div>
-		      <div class="modal-body">
-			       Paris, Marseille, Bordeaux ? Trouve le bus qu'il te faut dans n'importe quelle ville, grâce à une seule et même application.
-		      </div>
-		      <div class="modal-footer">
-			<button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
-
-		      </div>
-		    </div>
-		  </div>
+<!-- Modal PREPARER -->
+		<div class="modal fade" id="preparer" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<img src="image/list.png" width="200px">
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				          <span aria-hidden="true">&times;</span>
+				        </button>
+				    </div>
+				    	<div class="modal-body">
+				        <p>Délivrez-vous de la gestion de vos futurs trajets, HUBUS le fait pour vous en comparant sans cesse les offres disponibles chez nos partenaires.</p>
+				      	</div>
+				      		
+				</div>
+			</div>
 		</div>
-
-
-
-
-
 
 
 
